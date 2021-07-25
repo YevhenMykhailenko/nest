@@ -8,7 +8,7 @@ async function start() {
     const app = await NestFactory.create(AppModule);
 
     const config = new DocumentBuilder()
-        .setTitle('Nest lesson')
+        .setTitle('Nest project')
         .setDescription('REST API Docs')
         .setVersion('1.0.0')
         .addTag('My Nest.js project')
